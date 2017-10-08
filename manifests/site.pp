@@ -28,7 +28,6 @@ node default {
   
   # example code for the classroom
   include examples::puppetize
-  include examples::fundamentals
   include examples::practitioner
   
   notify { "This is the default message from the production environment - erika": }
